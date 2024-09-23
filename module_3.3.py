@@ -1,5 +1,5 @@
 def single_root_words(root_word='auto', *other_words):
-    root_word.upper()
+    root_word.lower()
     other_words = [s.lower() for s in other_words]
     same_words = []
     for word in other_words:
